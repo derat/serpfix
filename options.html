@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>serpfix Options</title>
+    <style>
+      body {
+        font-size: 14px;
+      }
+      .row {
+        margin: 8px 0;
+      }
+      textarea {
+        display: block;
+        height: 400px;
+        margin-top: 4px;
+        width: 300px;
+      }
+    </style>
+    <script src="options.js" type="module"></script>
+  </head>
+  <body>
+    <h1>serpfix</h1>
+    <div class="row">
+      <label><input id="hide-ads-checkbox" type="checkbox" /> Hide ads</label>
+    </div>
+    <div class="row">
+      <div><label for="hide-domains-textarea">Domains to hide in results (substrings):</label></div>
+      <textarea
+        id="hide-domains-textarea"
+        placeholder="One domain per line"
+        spellcheck="false"
+      ></textarea>
+    </div>
+    <div class="row"><button id="save-button" disabled>Save</button></div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+.serpfix-hidden-group {
+  border: solid 1px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 90%;
+  opacity: 0.5;
+  margin-bottom: 16px;
+  padding: 4px 6px;
+}
+.serpfix-hidden-group:hover {
+  opacity: 0.75;
+}
